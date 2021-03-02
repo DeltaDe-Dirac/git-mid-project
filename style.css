@@ -337,3 +337,27 @@ section {
 }
 
 /* --- CONTACT --- */
+
+.wrapper {
+  width: 60vw;
+  margin-right: 300px;
+}
+
+.wrapper > .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.wrapper > .contact > .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper .contact > .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
