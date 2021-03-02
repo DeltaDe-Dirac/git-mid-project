@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-decoration: none;
   margin: 0;
   padding: 0;
 }
@@ -7,6 +8,7 @@
 body {
   direction: rtl;
   font-family: "Arial (Hebrew)", Arial;
+  line-height: 1;
 }
 
 header {
@@ -33,7 +35,7 @@ header {
 
 .container .search label:hover {
   text-decoration: underline;
-  color: blue;
+  color: rgb(0, 92, 160);
 }
 
 #search-btn > img {
@@ -64,7 +66,6 @@ header {
 }
 
 .container .menu > ul > li > a {
-  text-decoration: none;
   color: white;
 }
 
@@ -88,6 +89,8 @@ header {
   justify-content: center;
 }
 
+/* --- SECTION TOP ROW --- */
+
 .container > .content > .top-row {
   margin: 30px auto 0px auto;
 }
@@ -98,3 +101,65 @@ header {
   flex-direction: row;
   justify-content: center;
 }
+
+.container > .content > .top-row img {
+  border-radius: 0px 0px 23px 0px;
+}
+
+.container > .content > .top-row > div:nth-child(2) {
+  margin: 0 15px;
+}
+
+.container > .content > .top-row > div {
+  position: relative;
+}
+
+.container > .content > .top-row .on-top-text {
+  position: absolute;
+  background-color: rgba(124, 122, 122, 0.8);
+  border-radius: 0px 0px 23px 0px;
+  bottom: 10px;
+  right: 10px;
+  width: 245px;
+}
+
+.container > .content > .top-row .on-top-text > h1 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 10px 0 0;
+}
+
+.container > .content > .top-row .on-top-text > p {
+  color: white;
+  font-size: 13px;
+  padding: 5px 10px;
+  float: left;
+}
+
+.container > .content > .top-row .on-top-text > a {
+  color: white;
+  font-size: 13px;
+  padding: 0px 10px;
+}
+
+.container > .content > .top-row .on-top-text > a > span {
+  position: absolute;
+  text-decoration: underline;
+  left: 10px;
+  bottom: 5px;
+}
+
+.container > .content > .top-row .on-top-text > a > span::after {
+  content: url(img/read_more_white.png);
+  margin-right: 5px;
+}
+
+.container > .content > .top-row .on-top-text > a:hover > span:hover::after {
+  content: url(img/read_more_blue.png);
+}
+
+.container > .content > .top-row .on-top-text > a:hover {
+  color: rgb(0, 92, 160);
+}
+/* --- SECTION BOT ROW --- */
