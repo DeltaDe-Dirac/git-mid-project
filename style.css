@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: "Arial (Hebrew)", Arial;
+}
+
+header {
+  height: 105px;
+  background-color: gray;
+}
+
+/* --- SEARCH --- */
+
+.container .search {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  margin-left: 150px;
+}
+
+.container .search label {
+  margin-left: 20px;
+}
+
+.container .search label:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+#search-btn > img {
+  width: 19px;
+}
+
+/* --- MENU --- */
+
+.container .menu {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container .menu > ul {
+  list-style: none;
+  margin-right: 243px;
+  margin-top: 20px;
+}
+
+#menu-home:hover > img {
+  background: url(img/menu_home_blue.png) no-repeat;
+}
+
+#paz-logo {
+  position: absolute;
+  left: 0px;
+  top: -40px;
+}
+
+.container .menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .menu > ul > li {
+  display: inline;
+  margin: 10px;
+  position: relative;
+}
+
+.container .menu > ul > li:not(:last-child):not(:first-child):after {
+  content: " | ";
+  color: aliceblue;
+  margin: 10px;
+}
