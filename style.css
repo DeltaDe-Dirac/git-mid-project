@@ -292,6 +292,7 @@ header {
 }
 
 /* --- FOOTER --- */
+
 section {
   margin-bottom: 65px;
 }
@@ -334,3 +335,5 @@ section {
   text-decoration: underline;
   color: rgb(0, 92, 160);
 }
+
+/* --- CONTACT --- */
