@@ -114,9 +114,13 @@ header {
   margin: 1px 0;
 }
 
-.container .menu > ul > .dropdown > a:hover,
+.container .menu > ul > .dropdown > a:hover {
+  color: rgb(0, 92, 160);
+}
+
 .container .menu > ul > .dropdown > .dd-content > a:hover {
   color: rgb(0, 92, 160);
+  background-color: rgb(175, 175, 175);
 }
 
 .container .menu > ul > .dropdown > a:hover + .dd-content,
