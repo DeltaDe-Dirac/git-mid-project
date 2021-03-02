@@ -55,7 +55,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* flex-wrap: nowrap; */
 }
 
 .container .menu > ul {
@@ -98,24 +97,36 @@ header {
 .container .menu .dropdown > .dd-content {
   display: none;
   position: absolute;
-  left: 0;
+  background-color: white;
+  z-index: 2;
+  top: 197%;
+  right: -5%;
 }
 
 .container .menu .dropdown > .dd-content > a {
   display: block;
-  color: black;
+  color: white;
+  background-color: gray;
+  padding: 5px;
 }
 
-.container .menu > ul > .dropdown > a:hover {
+.container .menu .dropdown > .dd-content > a:not(:last-child) {
+  margin: 1px 0;
+}
+
+.container .menu > ul > .dropdown > a:hover,
+.container .menu > ul > .dropdown > .dd-content > a:hover {
   color: rgb(0, 92, 160);
 }
 
-.container .menu > ul > .dropdown > a:hover + .dd-content {
+.container .menu > ul > .dropdown > a:hover + .dd-content,
+.container .menu > ul > .dropdown > .dd-content:hover {
   display: block;
 }
 
-/* ,
-.container .menu .dropdown > .dd-content > a:hover */
+.container .menu > ul > .dropdown a {
+  padding-bottom: 16px;
+}
 
 /* --- SECTION --- */
 
@@ -203,7 +214,6 @@ header {
 
 .container > .content > .bot-row > .on-top-text {
   position: relative;
-  /* border: solid black; */
   background-color: rgb(248, 248, 248);
   border-radius: 0px 23px 0px 0px;
   width: 291px;
@@ -217,14 +227,11 @@ header {
 .container > .content > .bot-row > .on-top-text > h3 {
   color: #575757;
   font-size: 14px;
-  /* font-weight: bold; */
-  /* padding: 10px 10px 0 0; */
   padding: 10px;
   margin-right: 20px;
 }
 
 .container > .content > .bot-row > .on-top-text > p {
-  /* position: relative; */
   margin: 0px auto 15px auto;
   width: 240px;
   border: solid rgb(216, 216, 216);
@@ -271,16 +278,7 @@ header {
   justify-content: space-between;
 }
 
-/* WHY THIS SELECTOR DOESN'T WORK?!!!!
 .container > .content > .bot-row > .on-top-text > div > ul,
-img {
-  margin: 0 20px;
-} */
-
-.container > .content > .bot-row > .on-top-text > div > ul {
-  margin: 0 20px;
-}
-
 .container > .content > .bot-row > .on-top-text > div > img {
   margin: 0 20px;
 }
