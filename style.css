@@ -74,7 +74,7 @@ header {
   top: -40px;
 }
 
-.container .menu > ul > li > a {
+.container .menu > ul > li a {
   color: white;
 }
 
@@ -89,6 +89,33 @@ header {
   color: aliceblue;
   margin: 6px;
 }
+
+/* --- DROPDOWN --- */
+.container .menu > ul > .dropdown {
+  position: relative;
+}
+
+.container .menu .dropdown > .dd-content {
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+.container .menu .dropdown > .dd-content > a {
+  display: block;
+  color: black;
+}
+
+.container .menu > ul > .dropdown > a:hover {
+  color: rgb(0, 92, 160);
+}
+
+.container .menu > ul > .dropdown > a:hover + .dd-content {
+  display: block;
+}
+
+/* ,
+.container .menu .dropdown > .dd-content > a:hover */
 
 /* --- SECTION --- */
 
