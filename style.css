@@ -79,3 +79,14 @@ header {
   color: aliceblue;
   margin: 10px;
 }
+
+/* --- SECTION --- */
+
+.container > .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > .content > div {
+  margin: 30px auto 0px auto;
+}
