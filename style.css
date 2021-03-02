@@ -228,3 +228,27 @@ header {
 .container > .content > .bot-row .on-top-text a span {
   text-decoration: underline;
 }
+
+.container > .content > .bot-row .on-top-text > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* WHY THIS SELECTOR DOESN'T WORK?!!!!
+.container > .content > .bot-row > .on-top-text > div > ul,
+img {
+  margin: 0 20px;
+} */
+
+.container > .content > .bot-row > .on-top-text > div > ul {
+  margin: 0 20px;
+}
+
+.container > .content > .bot-row > .on-top-text > div > img {
+  margin: 0 20px;
+}
+
+.container > .content > .bot-row > .on-top-text > div > ul > li {
+  padding: 2px 0;
+}
