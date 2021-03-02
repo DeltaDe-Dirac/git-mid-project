@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -50,7 +51,6 @@ header {
 }
 
 .container .menu > ul {
-  list-style: none;
   margin-right: 243px;
   margin-top: 20px;
 }
@@ -92,7 +92,7 @@ header {
 /* --- SECTION TOP ROW --- */
 
 .container > .content > .top-row {
-  margin: 30px auto 0px auto;
+  margin: 30px auto 20px auto;
 }
 
 .container > .content > .top-row,
@@ -162,4 +162,34 @@ header {
 .container > .content > .top-row .on-top-text > a:hover {
   color: rgb(0, 92, 160);
 }
+
 /* --- SECTION BOT ROW --- */
+
+.container > .content > .bot-row > .on-top-text {
+  position: relative;
+  /* border: solid black; */
+  background-color: rgb(248, 248, 248);
+  border-radius: 0px 23px 0px 0px;
+  width: 291px;
+}
+
+.container > .content > .bot-row > .on-top-text:nth-child(2) {
+  margin: 0 15px;
+}
+
+.container > .content > .bot-row > .on-top-text > p {
+  /* position: relative; */
+  margin: auto;
+  width: 200px;
+  border: solid darkgrey;
+  background-color: rgb(236, 234, 234);
+}
+
+.container > .content > .bot-row > .on-top-text > h3 {
+  color: #575757;
+  font-size: 14px;
+  /* font-weight: bold; */
+  /* padding: 10px 10px 0 0; */
+  padding: 10px;
+  margin-right: 20px;
+}
