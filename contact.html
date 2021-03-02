@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <title>פז - צור קשר</title>
   </head>
   <body>
@@ -11,7 +12,14 @@
         <form class="search">
           <div>
             <label for="search">English</label>
-            <input type="text" id="search" name="search" />
+            <input
+              onblur="addPlaceholder();"
+              onfocus="removePlaceholder();"
+              type="text"
+              id="search"
+              name="search"
+              placeholder="רשום מילת חיפוש"
+            />
           </div>
           <a href="#" id="search-btn"><img src="img/search_button.png" alt="search_button" /> </a>
         </form>
