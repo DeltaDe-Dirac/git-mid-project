@@ -252,3 +252,25 @@ img {
 .container > .content > .bot-row > .on-top-text > div > ul > li {
   padding: 2px 0;
 }
+
+/* --- FOOTER --- */
+
+.container > footer > div {
+  background-color: gray;
+}
+
+.container > footer ul > li > a {
+  color: white;
+}
+
+.container > footer ul > li {
+  display: inline;
+  margin: 10px;
+  position: relative;
+}
+
+.container > footer ul > li:not(:last-child):after {
+  content: " | ";
+  color: aliceblue;
+  margin: 10px;
+}
