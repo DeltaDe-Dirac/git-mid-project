@@ -254,23 +254,44 @@ img {
 }
 
 /* --- FOOTER --- */
+section {
+  margin-bottom: 65px;
+}
+.container > footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
 
 .container > footer > div {
   background-color: gray;
+  padding: 10px;
+}
+
+.container > footer ul {
+  margin-right: 190px;
 }
 
 .container > footer ul > li > a {
   color: white;
+  font-size: 14px;
+}
+
+.container > footer ul > li:last-child > a {
+  color: red;
 }
 
 .container > footer ul > li {
   display: inline;
-  margin: 10px;
-  position: relative;
 }
 
-.container > footer ul > li:not(:last-child):after {
+.container > footer ul > li::before {
   content: " | ";
   color: aliceblue;
-  margin: 10px;
+  /* margin: 5px; */
+}
+
+.container > footer ul > li > a:hover {
+  text-decoration: underline;
+  color: rgb(0, 92, 160);
 }
