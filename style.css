@@ -200,7 +200,7 @@ header {
   margin: auto;
 }
 
-.container > .content > .bot-row .on-top-text > a {
+.container > .content > .bot-row .on-top-text a {
   color: #72716d;
   font-size: 13px;
   padding: 0px 10px;
@@ -208,20 +208,23 @@ header {
 
 .container > .content > .bot-row .on-top-text > a > span {
   position: absolute;
-  text-decoration: underline;
   left: 27px;
   bottom: 25px;
 }
 
-.container > .content > .bot-row .on-top-text > a > span::after {
+.container > .content > .bot-row .on-top-text a span::after {
   content: url(img/read_more_yellow.png);
   margin-right: 5px;
 }
 
-.container > .content > .bot-row .on-top-text > a:hover > span:hover::after {
+.container > .content > .bot-row .on-top-text a:hover span:hover::after {
   content: url(img/read_more_blue.png);
 }
 
-.container > .content > .bot-row .on-top-text > a:hover {
+.container > .content > .bot-row .on-top-text a:hover {
   color: rgb(0, 92, 160);
+}
+
+.container > .content > .bot-row .on-top-text a span {
+  text-decoration: underline;
 }
