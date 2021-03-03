@@ -524,3 +524,8 @@ section {
   font-size: 13px;
   color: #6d6d6d;
 }
+
+.wrapper .contact > .details .det-links > li > a:hover {
+  color: rgb(23, 112, 180);
+  text-decoration: underline;
+}
