@@ -13,3 +13,7 @@ function changePic() {
     document.getElementById("ads-img").src = "img/ads-" + ((counter++ % 4) + 1) + ".jpg";
   }, 10000);
 }
+
+function cleanTextarea() {
+  document.getElementById("textarea").placeholder = "";
+}

@@ -148,7 +148,14 @@
                   <input type="email" id="email" name="email" />
                 </div>
                 <div>
-                  <textarea name="content" id="" cols="35" rows="7" placeholder="תוכן הפנייה"></textarea>
+                  <textarea
+                    onfocus="cleanTextarea();"
+                    name="content"
+                    id="textarea"
+                    cols="35"
+                    rows="7"
+                    placeholder="תוכן הפנייה"
+                  ></textarea>
                 </div>
                 <div>
                   <button type="button" onclick="sendForm()">שלח</button>
