@@ -454,7 +454,7 @@ section {
   padding-bottom: 7px;
 }
 
-.wrapper > .contact > .form > .form-bot-row > form > div {
+.wrapper > .contact > .form > .form-bot-row > form > div:not(.error) {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -535,4 +535,13 @@ section {
 .wrapper .contact > .details .det-links > li > a:hover {
   color: rgb(23, 112, 180);
   text-decoration: underline;
+}
+
+/* --- FORM VALIDATIONS --- */
+
+.error {
+  display: none;
+  padding-right: 55px;
+  color: red;
+  font-size: 12px;
 }
