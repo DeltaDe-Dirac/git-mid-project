@@ -518,3 +518,9 @@ span {
   height: 1px;
   background-color: rgb(203, 203, 203);
 }
+
+.wrapper .contact > .details > div > ul > li,
+a {
+  font-size: 13px;
+  color: #6d6d6d;
+}
