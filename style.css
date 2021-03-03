@@ -22,12 +22,12 @@ header {
 
 .container .search {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 20px 0 10px 30px;
   font-size: 12px;
   font-weight: bold;
   color: white;
-  margin-left: 290px;
+  margin-right: 695px;
 }
 
 .container .search > div > input {
@@ -327,7 +327,6 @@ section {
 .container > footer ul > li::before {
   content: " | ";
   color: aliceblue;
-  /* margin: 5px; */
 }
 
 .container > footer ul > li > a:hover {
@@ -355,7 +354,6 @@ section {
 
 .wrapper > .contact > .side-menu > div {
   background-color: rgb(245, 243, 243);
-  /* border: solid black; */
   width: 122px;
   height: 36px;
 }
