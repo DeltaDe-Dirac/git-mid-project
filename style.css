@@ -454,6 +454,39 @@ span {
   padding-bottom: 7px;
 }
 
+.wrapper > .contact > .form > .form-bot-row > form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.wrapper > .contact > .form > .form-bot-row > form > div > label {
+  font-size: 12px;
+  padding-right: 50px;
+}
+
+.wrapper > .contact > .form > .form-bot-row > form > div > textarea {
+  margin-right: 50px;
+}
+
+.wrapper > .contact > .form > .form-bot-row > form > div > button {
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 8px;
+  background-color: rgb(23, 112, 180);
+  border: solid rgb(204, 204, 204);
+  border-radius: 0px 7px 0px 0px;
+  color: white;
+  margin-right: 275px;
+}
+
+.wrapper > .contact > .form > .form-bot-row > form > div > button:hover {
+  background-color: orange;
+  color: black;
+}
+
 /* --- DETAILS --- */
 
 .wrapper .contact > .details {
