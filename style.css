@@ -345,11 +345,16 @@ section {
 .wrapper > .contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 50px;
+  justify-content: center;
+  margin-top: 35px;
+  /* margin-right: 320px; */
 }
 
 /* --- SIDE MENU --- */
+
+.wrapper > .contact > .side-menu {
+  margin-left: 20px;
+}
 
 .wrapper > .contact > .side-menu > div {
   background-color: rgb(245, 243, 243);
@@ -492,7 +497,8 @@ section {
 .wrapper .contact > .details {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin-right: 20px;
 }
 
 .wrapper .contact > .details > div {
@@ -503,8 +509,14 @@ section {
   background-color: rgb(250, 250, 250);
 }
 
-.wrapper .contact > .details > div:first-child {
+.wrapper .contact > .details > .det-top {
   margin-top: 55px;
+  margin-bottom: 30px;
+  padding-bottom: 60px;
+}
+
+.wrapper .contact > .details > .det-bot {
+  padding-bottom: 80px;
 }
 
 .wrapper .contact > .details > div > h3 {
