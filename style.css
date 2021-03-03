@@ -63,9 +63,9 @@ header {
   white-space: nowrap;
 }
 
-#menu-home:hover > img {
+/* #menu-home:hover > img {
   background: url(img/menu_home_blue.png) no-repeat;
-}
+} */
 
 #paz-logo {
   position: absolute;
@@ -129,7 +129,7 @@ header {
 }
 
 .container .menu > ul > .dropdown a {
-  padding-bottom: 16px;
+  padding-bottom: 17px;
 }
 
 /* --- SECTION --- */
@@ -399,7 +399,7 @@ section {
 }
 
 .wrapper > .contact > .form > .form-up-row > a,
-span {
+.wrapper > .contact > .form > .form-up-row > span {
   font-size: 12px;
   color: rgb(92, 92, 92);
 }
@@ -520,7 +520,7 @@ span {
 }
 
 .wrapper .contact > .details > div > ul > li,
-a {
+.wrapper .contact > .details > div > ul > a {
   font-size: 13px;
   color: #6d6d6d;
 }
