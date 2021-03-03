@@ -235,11 +235,10 @@ header {
   margin-right: 20px;
 }
 
-.container > .content > .bot-row > .on-top-text > p {
+.container > .content > .bot-row > .on-top-text > hr {
   margin: 0px auto 15px auto;
   width: 240px;
-  border: solid rgb(216, 216, 216);
-  background-color: rgb(236, 234, 234);
+  color: rgb(236, 234, 234);
 }
 
 .container > .content > .bot-row > .on-top-text > img {
